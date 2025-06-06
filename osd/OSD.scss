@@ -1,0 +1,40 @@
+$fg-color: #{"@theme_fg_color"};
+$bg-color: #{"@theme_bg_color"};
+
+window.OSD {
+
+
+    box.OSD {
+        border-radius: 6px;
+        background-color: $bg-color;
+        padding: 13px;
+        margin: 13px;
+        margin-bottom: 50px;
+
+        min-width: 6rem;
+
+        background-color: rgba(8, 8, 8, .4);
+    }
+
+    icon {
+        font-size: 5rem;
+    }
+
+    label {
+        font-size: 1.1rem;
+    }
+
+    levelbar {
+
+
+        trough {
+            margin: 1px .6rem;
+            min-width: 5rem;
+        }
+
+        block {
+            padding: 6px;
+            border-radius: 4px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@use "../../themes/gruvbox-material" as *;
+
+levelbar {
+
+    trough {
+        background: linear-gradient(-60deg, $bg-visual-orange 0%, rgba(18, 18, 18, .95)) 20%;
+    }
+
+    block.filled {
+        background: linear-gradient(60deg, $o-orange 0%, $orange-sl1 80%);
+    }
+
+    block.low {
+        background: linear-gradient(60deg, $o-orange 0%, $orange 80%);
+    }
+
+    block.high {
+        background: linear-gradient(60deg, $o-orange 0%, $orange 80%);
+    }
+
+}

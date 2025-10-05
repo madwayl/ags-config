@@ -1,0 +1,47 @@
+@use "../../themes/gruvbox-material" as *;
+@use "./osd-colors";
+
+// $fg-color: #{"@theme_fg_color"};
+// $bg-color: #{"@theme_bg_color"};
+
+window.OSD {
+
+    box.OSD {
+        border-radius: 6px;
+        // background-color: $bg-color;
+        padding: 13px;
+        margin: 13px;
+        margin-bottom: 50px;
+
+        min-width: 6rem;
+
+        background-color: rgba(0, 0, 0, .85);
+    }
+
+    image {
+        margin-top: -8rem;
+        color: rgba(18, 18, 18, .95);
+    }
+
+    label {
+        margin-top: -0.5rem;
+        font-size: 1.1rem;
+        color: $fg0
+    }
+
+    levelbar {
+
+        trough {
+            margin: 1px .6rem;
+            border-radius: 4px;
+        }
+
+        block {
+            padding: 3rem 0px;
+            border-radius: 4px;
+            transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+    }
+
+}
